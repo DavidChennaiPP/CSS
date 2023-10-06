@@ -5,7 +5,7 @@ margin: 0;
 .container {
 border: 6px solid black ;
 display:grid;
-grid-template-columns: repeat(4,200px);
+grid-template-columns: repeat(3,minmax(200px))
 
 }
 .grid-item {
